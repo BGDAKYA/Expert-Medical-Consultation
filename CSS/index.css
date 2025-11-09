@@ -71,6 +71,7 @@ main {
     position: relative;
     width: 100%;
     margin-top: 10vw;
+    margin-bottom: 25vw;
 }
 
 .function-area1,
@@ -146,6 +147,7 @@ nav a:focus {
 article {
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 5vw;
 }
 
 article .upper {
@@ -206,6 +208,17 @@ article .down .essay {
     /* 确保行高稳定，方便计算高度（可按需调整） */
     line-height: 1.6em;
     max-height: calc(1.6em * 2);
+}
+
+article .down .images {
+    display: flex;
+    justify-content: space-around;
+}
+
+article .down img {
+    width: 28vw;
+    height: 18vw;
+    border-radius: 2vw;
 }
 
 /* 底部导航条 */
